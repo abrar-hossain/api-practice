@@ -64,7 +64,7 @@ const loadMealDetail = async mealId => {
 const displayMealDetail = meal => {
   console.log(meal);
   const mealDetails = document.getElementById('meal-details');
-  //mealDetails.textContent = '';
+  mealDetails.textContent = '';
   const div = document.createElement('div');
   div.classList.add('card');
   div.innerHTML = `
